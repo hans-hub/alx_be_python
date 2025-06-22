@@ -2,8 +2,7 @@ class Book:
     def __init__(self, title, author, year):
         self.title = title
         self.author = author
-        self.year = year
-        print(f"Book created: {self}")
+        self.year = year  # No print here
 
     def __del__(self):
         print(f"Deleting {self.title}")
